@@ -24,7 +24,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
       >
         <div class="navbar-brand">
           <div class="navbar-item">
-            <h1 class="title has-text-white">{{ appName }}</h1>
+            <h1 class="title has-text-white">tbl.gy</h1>
           </div>
           <a
             role="button"
@@ -101,7 +101,7 @@ export default {
   name: "app",
   data() {
     return {
-      appName: `Magic ${process.env.VUE_APP_NAME}`,
+      appName: `tbl.gy`,
       signUpUrl: `${authDomain}/signup?response_type=code&client_id=${clientId}&redirect_uri=${redUrl}`,
       logInUrl: `${authDomain}/login?response_type=code&client_id=${clientId}&redirect_uri=${redUrl}`,
       logOutUrl: `${authDomain}/logout?client_id=${clientId}&logout_uri=${redUrl}`,
